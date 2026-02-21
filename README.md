@@ -28,6 +28,7 @@ A: Because inside Neovim you get all of your LSP, snippets, autocompletions, hot
     ```lua
     {
       "jesseleite/iex.nvim",
+      lazy = false,
       opts = {
         -- All of your `setup(opts)` will go here when using lazy.nvim
       },
