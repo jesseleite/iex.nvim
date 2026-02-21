@@ -1,6 +1,6 @@
 # IEx.nvim
 
-Run Elixir scratch files via IEx inside Neovim! 🧪
+Run Elixir via IEx inside Neovim! 🧪
 
 ![](screenshot.png)
 
