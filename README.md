@@ -27,8 +27,7 @@ A: Because inside Neovim you get all of your LSP, snippets, autocompletions, hot
 
     ```lua
     {
-      'jesseleite/iex.nvim',
-      lazy = false,
+      "jesseleite/iex.nvim",
       opts = {
         -- All of your `setup(opts)` will go here when using lazy.nvim
       },
@@ -38,8 +37,8 @@ A: Because inside Neovim you get all of your LSP, snippets, autocompletions, hot
 2. Optionally map some keybindings:
 
     ```lua
-    vim.keymap.set('n', '<Leader>io', vim.cmd.IEx, { desc = 'Open IEx scratch file' })
-    vim.keymap.set('n', '<Leader>ir', vim.cmd.IExRun, { desc = 'Run IEx in vsplit' })
+    vim.keymap.set("n", "<Leader>io", vim.cmd.IEx, { desc = "Open IEx scratch file" })
+    vim.keymap.set("n", "<Leader>ir", vim.cmd.IExRun, { desc = "Run IEx in vsplit" })
     ```
 
 3. Optionally add `.iex.exs` to your [global git excludes](https://gist.github.com/subfuzion/db7f57fff2fb6998a16c), so that you don't have to ignore it in each project.
@@ -70,17 +69,17 @@ As for output, the last expression in your scratch file is automatically inspect
 The default configuration:
 
 ```lua
-require('iex').setup {
-  scratch_file = '.iex.exs',
-  output_buf_name = 'iex:///output',
+require("iex").setup {
+  scratch_file = ".iex.exs",
+  output_buf_name = "iex:///output",
   run_on_save = true,
 }
 ```
 
 | Option | Default | Description |
 | --- | --- | --- |
-| `scratch_file` | `'.iex.exs'` | File name of the scratch file created in your project root |
-| `output_buf_name` | `'iex:///output'` | Buffer name displayed when running and viewing output |
+| `scratch_file` | `".iex.exs"` | File name of the scratch file created in your project root |
+| `output_buf_name` | `"iex:///output"` | Buffer name displayed when running and viewing output |
 | `run_on_save` | `true` | Whether or not to automatically run `:IExRun` on save |
 
 ## Thank You!
