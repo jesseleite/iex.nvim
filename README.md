@@ -2,6 +2,8 @@
 
 Run Elixir scratch files via IEx inside Neovim! 🧪
 
+![](screenshot.png)
+
 - [Rationale](#rationale)
 - [Installation](#installation)
 - [Usage](#usage)
