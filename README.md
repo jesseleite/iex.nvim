@@ -52,10 +52,9 @@ A: Because inside Neovim you get all of your LSP, snippets, autocompletions, hot
 
 Run `:IEx` to open (or create) an `.iex.exs` scratch file in your current working directory.
 
-
 ### Running Your Scratch File
 
-Run `:IExRun` to evaluate your scratch file and display the output in a vertical split.
+Simply `:w` the buffer (or run `:IExRun`) to evaluate your scratch file and display the output in a vertical split.
 
 ### How It Works
 
