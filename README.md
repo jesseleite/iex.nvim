@@ -2,7 +2,7 @@
 
 Run Elixir via IEx inside Neovim! 🧪
 
-![](screenshot.png)
+![](screenshot2.png)
 
 - [Rationale](#rationale)
 - [Installation](#installation)
